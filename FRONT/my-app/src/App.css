@@ -1,0 +1,122 @@
+.photo {
+  height: 500px;
+  z-index: 0;
+
+}
+
+.rowC {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.buttonRight {
+  margin-bottom: 10px;
+}
+
+.formBorder {
+  border-style: groove;
+  border-color: rgb(0, 0, 0);
+  opacity: 0.8;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.formtxt {
+  font-family: serif;
+  font-size: larger;
+}
+
+.flightbook {
+  margin-bottom: 100px;
+}
+
+.posright {
+  position: absolute;
+  right: 1%;
+  top: 21%;
+  width: 200px;
+  height: 160px;
+}
+
+.search-flight {
+  padding: 50px 40px;
+  background-color: #fff;
+  width: 40%;
+  border-radius: 7px;
+  box-shadow: rgba(101, 119, 134, 0.2) 0px 0px 15px, rgba(101, 119, 134, 0.15) 0px 0px 3px 1px;
+  display: flex;
+}
+
+.App {
+  background-color: white;
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.posrightsmall {
+  border-width: 1px;
+  border-radius: 1%;
+  border-color: black;
+  border-style: solid;
+  right: 1%;
+  top: 1%;
+  width: 80px;
+  height: 50px;
+}
+
+.posrightall {
+  position: absolute;
+  right: 0.5%;
+  top: 18%;
+  width: 400px;
+  height: 195px;
+}
+
+.posrightairline {
+  position: absolute;
+  right: 0.5%;
+  top: 24%;
+  width: 300px;
+  height: 135px;
+}
+
+.posfooter {
+  position: relative;
+  right: -20%;
+  color: #fff;
+}

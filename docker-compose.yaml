@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  api:
+    build: ./BACK
+    container_name: back_c
+    ports:
+      - '8000:8000'
+  myblog:
+    build: ./FRONT/my-app
+    container_name: front_c
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
